@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using GreatQuotes.Data;
 using System.Linq;
+using GreatQuotes.ViewModels;
 
 namespace GreatQuotes
 {
@@ -10,7 +11,7 @@ namespace GreatQuotes
         {
             InitializeComponent();
 
-            var quote = QuoteManager.Load().First();
+            var quote = new QuoteViewModel(QuoteManager.Load().First());
             MainPage = new NavigationPage(new QuoteDetailPage(quote));
         }
     }

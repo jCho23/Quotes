@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{030F0FF2-A92B-4722-8178-47A9A7323A30}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GreatQuotes/GreatQuotes/QuoteDetailPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GreatQuotes/GreatQuotes/App.xaml.cs">
     <Files>
       <File FileName="GreatQuotes/GreatQuotes/Data/IQuoteLoader.cs" Line="1" Column="1" />
       <File FileName="GreatQuotes/GreatQuotes/Data/QuoteManager.cs" Line="1" Column="1" />
       <File FileName="GreatQuotes/GreatQuotes/ViewModels/BaseViewModel.cs" Line="7" Column="33" />
       <File FileName="GreatQuotes/GreatQuotes/ViewModels/QuoteViewModel.cs" Line="7" Column="48" />
       <File FileName="GreatQuotes/GreatQuotes/QuoteDetailPage.xaml" Line="23" Column="19" />
-      <File FileName="GreatQuotes/GreatQuotes/QuoteDetailPage.xaml.cs" Line="8" Column="34" />
+      <File FileName="GreatQuotes/GreatQuotes/QuoteDetailPage.xaml.cs" Line="9" Column="46" />
+      <File FileName="GreatQuotes/GreatQuotes/App.xaml" Line="17" Column="1" />
+      <File FileName="GreatQuotes/GreatQuotes/App.xaml.cs" Line="14" Column="66" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
