@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -17,6 +17,10 @@
         <Label FontSize="Large" Text="{Binding QuoteText}" 
                 HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
 
+        <Label Text="{Binding Author}"
+                Grid.Row="1" HorizontalOptions="End" HorizontalTextAlignment="End"
+                TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
+                />
 
         <StackLayout Orientation="Horizontal" Spacing="5"
                 Grid.Row="1" HorizontalOptions="End">
@@ -32,5 +36,4 @@
 
        
     </Grid>
-
-    </ContentPage>
+</ContentPage>
