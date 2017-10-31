@@ -11,10 +11,8 @@ namespace GreatQuotes.ViewModels
         public string FirstName
         {
             get { return quote.FirstName; }
-            set
-            {
-                if (quote.FirstName != value)
-                {
+            set {
+                if (quote.FirstName != value) {
                     quote.FirstName = value;
                     RaisePropertyChanged();
                     RaisePropertyChanged(() => Author);
@@ -25,10 +23,8 @@ namespace GreatQuotes.ViewModels
         public string LastName
         {
             get { return quote.LastName; }
-            set
-            {
-                if (quote.LastName != value)
-                {
+            set {
+                if (quote.LastName != value) {
                     quote.LastName = value;
                     RaisePropertyChanged();
                     RaisePropertyChanged(() => Author);
@@ -43,11 +39,9 @@ namespace GreatQuotes.ViewModels
 
         public Gender Gender
         {
-            get { return quote.Gender; }
-            set
-            {
-                if (quote.Gender != value)
-                {
+            get {return quote.Gender;}
+            set { 
+                if (quote.Gender != value) {
                     quote.Gender = value;
                     RaisePropertyChanged();
                 }
@@ -57,10 +51,8 @@ namespace GreatQuotes.ViewModels
         public string QuoteText
         {
             get { return quote.QuoteText; }
-            set
-            {
-                if (quote.QuoteText != value)
-                {
+            set { 
+                if (quote.QuoteText != value) {
                     quote.QuoteText = value;
                     RaisePropertyChanged();
                 }

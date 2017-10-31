@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GreatQuotes.Views;
 
 using Xamarin.Forms;
 
@@ -10,16 +11,13 @@ namespace GreatQuotes.Views
         public QuoteListPage()
         {
             BindingContext = App.MainViewModel;
-
-
-            BindingContext = new List<GreatQuote>(QuoteManager.Load());
-            InitializeComponent();
+            InitializeComponent ();
         }
 
         void OnQuoteSelected(object sender, ItemTappedEventArgs e)
         {
-            GreatQuote quote = (GreatQuote)e.Item;
-            Navigation.PushAsync(new QuoteDetailPage(new QuoteViewModel(quote)), true);
+            QuoteViewModel quote = (QuoteViewModel)e.Item;
+            Navigation.PushAsync(new QuoteDetailPage(quote), true);
         }
     }
 }
