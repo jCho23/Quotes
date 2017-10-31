@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using GreatQuotes.Data;
 using GreatQuotes.ViewModels;
+using System;
 
 namespace GreatQuotes
 {    
@@ -8,9 +9,19 @@ namespace GreatQuotes
     {
         public QuoteDetailPage(QuoteViewModel quote)
         {
-            BindingContext = App.MainViewModel.SelectedQuote;
-            App.MainViewModel.SelectedQuote = null;
             InitializeComponent ();
+        }
+
+        async void OnDeleteQuote(object sender, EventArgs e)
+        {
+            var vm = DependencyService.Get<MainViewModel>();
+            await vm.OnDeleteQuote(vm.SelectedQuote);
+        }
+
+        async void OnEditQuote(object sender, EventArgs e)
+        {
+            var vm = DependencyService.Get<MainViewModel>();
+            await vm.OnEditQuote(vm.SelectedQuote);
         }
     }
 }
