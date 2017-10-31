@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using GreatQuotes.Data;
+using GreatQuotes.Views;
 using Xamarin.Forms;
 using XamarinUniversity.Interfaces;
 
