@@ -5,7 +5,7 @@
     xmlns:me="clr-namespace:GreatQuotes;assembly=GreatQuotes"
     x:Class="GreatQuotes.QuoteDetailPage" Title="Great Quotes">
 
-    <Grid RowSpacing="10" Padding="5">
+      <Grid RowSpacing="10" Padding="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
@@ -17,23 +17,10 @@
         <Label FontSize="Large" Text="{Binding QuoteText}" 
                 HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
 
-        <Label Text="{Binding Author}"
-                Grid.Row="1" HorizontalOptions="End" HorizontalTextAlignment="End"
+        <Label Grid.Row="1" Text="{Binding Author}" 
                 TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
-                />
-
-        <StackLayout Orientation="Horizontal" Spacing="5"
-                Grid.Row="1" HorizontalOptions="End">
-
-            <Label Text="{Binding FirstName}" 
-                TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
-                />
-            <Label Text="{Binding LastName}" 
-                TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
-                />
-
-        </StackLayout>
-
+                HorizontalOptions="End" HorizontalTextAlignment="End" />
        
     </Grid>
-</ContentPage>
+
+    </ContentPage>
