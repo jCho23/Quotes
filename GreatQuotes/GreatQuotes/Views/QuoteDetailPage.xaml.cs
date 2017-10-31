@@ -8,7 +8,8 @@ namespace GreatQuotes
     {
         public QuoteDetailPage(QuoteViewModel quote)
         {
-            BindingContext = quote;
+            BindingContext = App.MainViewModel.SelectedQuote;
+            App.MainViewModel.SelectedQuote = null;
             InitializeComponent ();
         }
     }
