@@ -17,3 +17,4 @@
 /Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.Views.QuoteListPage.xaml.g.cs
 /Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.dll
 /Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.pdb
+/Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.Views.EditQuotePage.xaml.g.cs

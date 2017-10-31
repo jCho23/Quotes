@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using GreatQuotes.Data;
 using GreatQuotes.Views;
 using Xamarin.Forms;
@@ -28,12 +29,17 @@ namespace GreatQuotes.ViewModels
             }
         }
 
+        public ICommand AddQuote { get; private set; }
+
         public MainViewModel()
         {
             Quotes = new ObservableCollection<QuoteViewModel>(
                 QuoteManager.Load()
                             .Select(q => new QuoteViewModel(q)));
 
+            SelectedQuote = Quotes.FirstOrDefault();
+
+            AddQuote = new Command(async () => await OnAddQuote());
         }
 
         public async Task OnAddQuote()
