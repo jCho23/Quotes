@@ -13,6 +13,9 @@ namespace GreatQuotes.Views
         {
             BindingContext = App.MainViewModel;
             InitializeComponent ();
+        }           protected override bool OnBackButtonPressed()
+        {
+            return base.OnBackButtonPressed();
         }
 
         void OnQuoteSelected(object sender, ItemTappedEventArgs e)
