@@ -1,0 +1,4 @@
+/Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.csproj.CoreCompileInputs.cache
+/Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.App.xaml.g.cs
+/Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.Views.QuoteDetailPage.xaml.g.cs
+/Users/junecho/Projects/Quotes/GreatQuotes/GreatQuotes/obj/Debug/GreatQuotes.Views.QuoteListPage.xaml.g.cs

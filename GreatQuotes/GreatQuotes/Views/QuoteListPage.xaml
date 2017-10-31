@@ -5,11 +5,15 @@
     x:Class="GreatQuotes.Views.QuoteListPage"
     Title= "Quotes">
 
-       <ListView ItemsSource="{Binding}" ItemTapped="OnQuoteSelected">
+       <ListView 
+            ItemsSource="{Binding}" 
+            ItemTapped="OnQuoteSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding QuoteText}"
-                        DetailColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}">
+                <TextCell 
+                    Text="{Binding QuoteText}"
+                    Detail= "{Binding Author}"
+                    DetailColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}">
                     <TextCell.ContextActions>
                         <MenuItem Text="Edit" />
                         <MenuItem Text="Delete" IsDestructive="True" />

@@ -9,6 +9,9 @@ namespace GreatQuotes.Views
     {
         public QuoteListPage()
         {
+            BindingContext = App.MainViewModel;
+
+
             BindingContext = new List<GreatQuote>(QuoteManager.Load());
             InitializeComponent();
         }
