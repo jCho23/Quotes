@@ -4,7 +4,7 @@
       <File FileName="GreatQuotes/GreatQuotes/ViewModels/QuoteViewModel.cs" Line="73" Column="10" />
       <File FileName="GreatQuotes/GreatQuotes/ViewModels/MainViewModel.cs" Line="32" Column="24" />
       <File FileName="GreatQuotes/GreatQuotes/Views/EditQuotePage.xaml" Line="29" Column="1" />
-      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="29" Column="2" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="9" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
