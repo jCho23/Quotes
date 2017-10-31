@@ -17,5 +17,14 @@ namespace GreatQuotes.ViewModels
                             .Select(q => new QuoteViewModel(q)));
 
         }
+
+        QuoteViewModel selected Quote;
+        public QuoteViewModel SelectedQupte
+        {
+            
+        }
+
+
+
     }
 }
