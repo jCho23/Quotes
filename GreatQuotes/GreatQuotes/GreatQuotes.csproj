@@ -52,6 +52,7 @@
     <Compile Include="Views\EditQuotePage.xaml.cs">
       <DependentUpon>EditQuotePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MainPage.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
