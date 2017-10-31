@@ -53,6 +53,7 @@
       <DependentUpon>EditQuotePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.cs" />
+    <Compile Include="Views\AppPages.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
