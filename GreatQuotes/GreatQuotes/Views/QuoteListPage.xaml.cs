@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using GreatQuotes.Views;
+using GreatQuotes.ViewModels;
 
 using Xamarin.Forms;
 
