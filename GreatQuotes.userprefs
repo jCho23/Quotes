@@ -9,8 +9,8 @@
       <File FileName="GreatQuotes/GreatQuotes/Views/QuoteDetailPage.xaml.cs" Line="9" Column="46" />
       <File FileName="GreatQuotes/GreatQuotes/App.xaml" Line="17" Column="1" />
       <File FileName="GreatQuotes/GreatQuotes/App.xaml.cs" Line="12" Column="1" />
-      <File FileName="GreatQuotes/GreatQuotes/ViewModels/MainViewModel.cs" Line="24" Column="13" />
-      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="10" Column="41" />
+      <File FileName="GreatQuotes/GreatQuotes/ViewModels/MainViewModel.cs" Line="21" Column="36" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="28" Column="2" />
       <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml.cs" Line="4" Column="30" />
       <File FileName="GreatQuotes/GreatQuotes/Data/GreatQuote.cs" Line="1" Column="1" />
     </Files>
