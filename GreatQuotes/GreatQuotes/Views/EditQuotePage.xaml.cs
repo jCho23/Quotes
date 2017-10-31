@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XamarinUniversity.Interfaces;
 
 namespace GreatQuotes.Views
 {
@@ -10,6 +11,11 @@ namespace GreatQuotes.Views
         public EditQuotePage()
         {
             InitializeComponent();
+        }
+
+        async void OnGoBack(object sender, EventArgs e)
+        {
+            await DependencyService.Get<INavigationService>().GoBackAsync();
         }
     }
 }
