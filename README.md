@@ -1,5 +1,5 @@
 # Quotes
-Simple MVVM app
+Simple app that demonstrates MVVM
 
 # Authors
 **June Cho** 
