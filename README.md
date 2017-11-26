@@ -1,4 +1,6 @@
 # Quotes
+Simple MVVM app
+
 # Authors
 **June Cho** 
 <br>
