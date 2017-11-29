@@ -1,6 +1,7 @@
 # Quotes
 Simple app that demonstrates MVVM architecture
 
+
 # Authors
 **June Cho** 
 <br>
