@@ -5,7 +5,7 @@ Simple app that demonstrates MVVM architecture
 # Authors
 **June Cho** 
 <br>
-*Microsoft Technical Solutions Professional*
+*Microsoft Enterprise Technical Solutions Professional*
 
 # License
 MIT License
