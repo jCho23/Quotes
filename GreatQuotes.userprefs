@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{030F0FF2-A92B-4722-8178-47A9A7323A30}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GreatQuotes/GreatQuotes/ViewModels/BaseViewModel.cs">
     <Files>
-      <File FileName="GreatQuotes/GreatQuotes/ViewModels/QuoteViewModel.cs" Line="73" Column="10" />
-      <File FileName="GreatQuotes/GreatQuotes/ViewModels/MainViewModel.cs" Line="32" Column="24" />
+      <File FileName="GreatQuotes/GreatQuotes/ViewModels/QuoteViewModel.cs" Line="10" Column="35" />
+      <File FileName="GreatQuotes/GreatQuotes/ViewModels/MainViewModel.cs" Line="31" Column="9" />
       <File FileName="GreatQuotes/GreatQuotes/Views/EditQuotePage.xaml" Line="29" Column="1" />
-      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="9" Column="18" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml" Line="29" Column="2" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteListPage.xaml.cs" Line="27" Column="2" />
+      <File FileName="GreatQuotes/GreatQuotes/ViewModels/BaseViewModel.cs" Line="4" Column="25" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteDetailPage.xaml" Line="26" Column="19" />
+      <File FileName="GreatQuotes/GreatQuotes/Views/QuoteDetailPage.xaml.cs" Line="24" Column="26" />
+      <File FileName="GreatQuotes/GreatQuotes/Data/GreatQuote.cs" Line="9" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
